@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <title>.:JMARY..SYSTEMS:.</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" type="text/css" media="screen" href="../../css/estrutura.css" />
+        
+        <script type="text/javascript" src="../../script/jquery.js"></script>
+        <script type="text/javascript" src="tabela_pesquisa_cliente_jquery.js"></script>
+    </head>
+    <body>
+        
+    <!-- -->
+    <table width="100%" class="pt10">   
+        <thead>
+            <tr>  
+                <td align="center" style="vertical-align: central;" class="festilobold boxtitulosombra h25px backtitulo mousepointer">   
+                    PESQUISAR CLIENTES
+                </td> 
+            </tr> 
+            
+            <tr>  
+                <td align="center" class="wpercent100 backcinza"> <div class="pt10">   
+                    <table id="pesquisar" class="backcinza">   
+                        <tr>
+                            <td align="center" width="20px" class=""> 
+                                <label>Pesquisar</label>                                                                                               
+                            </td>
+                            
+                            <td align="center" width="300px" class="">
+                                <input type="text" id="input_pesquisar" name="input_pesquisar" class="w300px h30px" >
+                            </td>
+                            
+                            <td align="center" width="20px" class="">
+                                <img onclick="pesquisarx();" class="mousepointer h30px" title="Pesquisar"  src="../../utilidades/utilidades_imagens/pesquisar.png" /> 
+                            </td>
+                            
+                            <td align="center" width="170px" class="">
+                                <select id="pesquisar_tabela" onChange="mySelectLeft()" style=" width:170px; height:30px; margin:0; padding:0; background-color:#FFFFFF;" >
+                                    <option value="nome">     Pesquisar por - Nome     </option>
+                                    <option value="id">       Pesquisar por - Id       </option>
+                                    <option value="telefone"> Pesquisar por - Telefone </option>
+                                </select>
+                                
+                                <script>
+                                    var tabela_da_coluna = 'nome';
+                                    function mySelectLeft() {
+                                        var x = document.getElementById("pesquisar_tabela").value;
+                                        tabela_da_coluna = x;
+                                    }
+                                </script>
+                            </td>
+                            <td align="right" class="">
+                                <img id="impressora" onclick="imprimirx();" class="mousepointer h22px" title="Imprimir"  src="../../utilidades/utilidades_imagens/print_2.png" /> 
+                            </td>    
+    
+                        </tr>    
+                    </table>
+                </div></td> 
+            </tr> 
+        </thead>                
+    </table>
+    <!-- -->
+ 
+    <div align="center">    
+        
+        <table align="center" id="cliente_tabela_home" class="pf0 mf0" border="0" cellpadding="10" cellspacing="0">
+            <thead>
+            <tr class="backred2 fbranco festilobold" > <td align="center"> Ações </td> <td>ID</td> <td>NOME</td> <td>ENDEREÇO</td> <td>NÚMERO</td> <td>EMAIL</td> <td>REFERÊNCIA</td> <td>TELEFONE</td> <td>OBSERVAÇÃO</td> </tr>
+            </thead>
+
+            <tbody>
+            <tr class="backbco" >          
+                <td class="w75px alimtxtcenterh"> 
+                    <img onclick="editar('id');"  class="mousepointer" title="Editar"  src="../../utilidades/utilidades_imagens/editar.png" /> 
+                    <img onclick="deletar('id');" class="mousepointer" title="Deletar" src="../../utilidades/utilidades_imagens/delete.png" />
+                </td> 
+                
+                <td>ID</td>
+	        <td>NOME</td>
+	        <td>ENDEREÇO</td>
+	        <td>NÚMERO</td>
+	        <td>EMAIL</td>
+	        <td>REFERÊNCIA</td>
+	        <td>TELEFONE</td>
+                <td>OBSERVAÇÃO</td> 
+            </tr>            
+            </tbody>
+
+        </table>
+        
+    </div>    
+        
+    </body>
+</html>

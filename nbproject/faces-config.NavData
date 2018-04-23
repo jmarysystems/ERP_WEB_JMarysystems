@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene Scope="Project" version="2">
+    <Scope Scope="Faces Configuration Only"/>
+    <Scope Scope="Project">
+        <Node id="admin/contato/contato_new/contato_new.jsp" x="150" y="300" zoom="false"/>
+        <Node id="utilidades/efeitos/tabela_sanfona.html" x="650" y="300" zoom="true"/>
+        <Node id="clientes/List.xhtml" x="400" y="300" zoom="true"/>
+        <Node id="admin/contato/contatos_search/contatos_search.jsp" x="150" y="600" zoom="true"/>
+        <Node id="index.jsp" x="1150" y="150" zoom="true"/>
+        <Node id="admin/clientes/clientes.html" x="400" y="450" zoom="true"/>
+        <Node id="admin/contato/teste/clientes.html" x="900" y="300" zoom="true"/>
+        <Node id="template.xhtml" x="650" y="450" zoom="true"/>
+        <Node id="status.jsp" x="400" y="150" zoom="true"/>
+        <Node id="clientes/Create.xhtml" x="650" y="150" zoom="true"/>
+        <Node id="admin/topo/contato/cliente.jsp" x="150" y="150" zoom="true"/>
+        <Node id="clientes/Edit.xhtml" x="150" y="450" zoom="true"/>
+        <Node id="clientes/View.xhtml" x="900" y="150" zoom="true"/>
+    </Scope>
+    <Scope Scope="All Faces Configurations"/>
+</Scene>

@@ -1,0 +1,35 @@
+/*  */
+#img_logo {
+    width:   146px;
+    height:  131px;
+    cursor:  pointer;
+    position:absolute;
+    
+    margin-top: 10px;
+    margin-left:13px;
+}
+
+/* tb_topo_login  (início) */
+
+/*  */
+#tb_topo_login {
+    background-color:#F0F0F0;
+    padding: 0px; 
+    margin:  0px;    
+    height:  131px;
+    width:   100%;
+    
+    border-spacing:      0px;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    border-bottom-style: solid; 
+}
+
+/*  */
+#tb_topo_login_tr1_td1 {
+    background-color:#C10033;
+    height:          27px;
+}
+
+/* tb_topo_login  (fim) */
+
